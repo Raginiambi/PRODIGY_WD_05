@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+  background-image: url(bg\ image\ 2.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+#Weather{
+   margin-top: 10px;
+    color:black;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+#weat-box{
+    height:130px;
+    width:360px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    /* backdrop-filter: blur(5px); */
+    margin-top : 75px;
+    background-image: linear-gradient(to right , rgb(81, 146, 148),rgb(94, 74, 173));
+    
+   
+}
+#temp-img{
+    height:100px;
+    width:380px;
+    display:flex;
+    align-items:center ;
+    justify-content: center;
+
+}
+input:hover{
+    border:1px solid white;
+}
+#cloudy{
+    height:140px;
+    width:143px;
+    visibility: hidden;
+}
+#search:hover{
+    border: 1px solid white;
+}
+#search{
+    height: 35px;
+    text-align: center;
+    width:35px;
+    margin-right: 20px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right,rgb(74, 74, 125) ,rgb(120, 55, 120));
+    
+}
+#searchbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-top: 45px;
+   border: 0cap;
+   padding-left: 30px;
+   
+   /* backdrop-filter: blur(15px); */
+   
+}
+input{
+    height:35px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right,rgb(74, 74, 125) ,rgb(120, 55, 120));
+    font-size: large;
+    width: 230px;
+    border: 0cap;
+    text-align: center;
+    
+    
+}
+::placeholder{
+    color: rgb(154, 151, 147);
+    opacity: 1;
+} 
+#tempdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 135px; */
+}
+#temp{
+    font-size: 45px;
+}
+#new-h2{
+    font-size: 45px;
+}
+#resdiv{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    margin-top: 5px;
+}
+button{
+    height:32px;
+    width: 75px;
+    border-radius: 10px;
+    text-align: center;
+    visibility: hidden;
+    background-image: linear-gradient(to right , rgb(81, 146, 148),rgb(94, 74, 173));
+    border: 0cap;
+    font-size: 20px;
+
+}
+#wind-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    font-size:23px;
+}
+#subwind{
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+   visibility: hidden;
+}
+#subhum{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    visibility: hidden;
+
+
+}
+
+@media screen and (max-width :1200px) and (min-width:450px) {
+    body{
+        height:641px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
